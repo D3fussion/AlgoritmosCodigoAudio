@@ -1,0 +1,28 @@
+# ── Dataset ───────────────────────────────────────────────────
+# ~2 GB, cada quien lo descarga automáticamente con el script
+data/
+
+# ── Resultados generados ──────────────────────────────────────
+# Se regeneran corriendo el script; no tiene sentido versionar
+outputs/
+
+# ── Entorno virtual ───────────────────────────────────────────
+.venv/
+venv/
+
+# ── Python ────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# ── macOS ─────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+
+# ── IDEs ──────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
